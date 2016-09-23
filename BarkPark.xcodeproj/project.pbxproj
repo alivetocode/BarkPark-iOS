@@ -1,0 +1,421 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F99DBE531D94B4D9005F55EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE521D94B4D9005F55EA /* AppDelegate.swift */; };
+		F99DBE551D94B4D9005F55EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE541D94B4D9005F55EA /* ViewController.swift */; };
+		F99DBE581D94B4D9005F55EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE561D94B4D9005F55EA /* Main.storyboard */; };
+		F99DBE5A1D94B4D9005F55EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE591D94B4D9005F55EA /* Assets.xcassets */; };
+		F99DBE5D1D94B4D9005F55EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE5B1D94B4D9005F55EA /* LaunchScreen.storyboard */; };
+		F99DBE681D94B4D9005F55EA /* BarkParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE671D94B4D9005F55EA /* BarkParkTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F99DBE641D94B4D9005F55EA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99DBE471D94B4D8005F55EA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F99DBE4E1D94B4D9005F55EA;
+			remoteInfo = BarkPark;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F99DBE4F1D94B4D9005F55EA /* BarkPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarkPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99DBE521D94B4D9005F55EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F99DBE541D94B4D9005F55EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F99DBE571D94B4D9005F55EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F99DBE591D94B4D9005F55EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F99DBE5C1D94B4D9005F55EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F99DBE5E1D94B4D9005F55EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99DBE631D94B4D9005F55EA /* BarkParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarkParkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99DBE671D94B4D9005F55EA /* BarkParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarkParkTests.swift; sourceTree = "<group>"; };
+		F99DBE691D94B4D9005F55EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F99DBE4C1D94B4D9005F55EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99DBE601D94B4D9005F55EA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F99DBE461D94B4D8005F55EA = {
+			isa = PBXGroup;
+			children = (
+				F99DBE511D94B4D9005F55EA /* BarkPark */,
+				F99DBE661D94B4D9005F55EA /* BarkParkTests */,
+				F99DBE501D94B4D9005F55EA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99DBE501D94B4D9005F55EA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99DBE4F1D94B4D9005F55EA /* BarkPark.app */,
+				F99DBE631D94B4D9005F55EA /* BarkParkTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99DBE511D94B4D9005F55EA /* BarkPark */ = {
+			isa = PBXGroup;
+			children = (
+				F99DBE521D94B4D9005F55EA /* AppDelegate.swift */,
+				F99DBE541D94B4D9005F55EA /* ViewController.swift */,
+				F99DBE561D94B4D9005F55EA /* Main.storyboard */,
+				F99DBE591D94B4D9005F55EA /* Assets.xcassets */,
+				F99DBE5B1D94B4D9005F55EA /* LaunchScreen.storyboard */,
+				F99DBE5E1D94B4D9005F55EA /* Info.plist */,
+			);
+			path = BarkPark;
+			sourceTree = "<group>";
+		};
+		F99DBE661D94B4D9005F55EA /* BarkParkTests */ = {
+			isa = PBXGroup;
+			children = (
+				F99DBE671D94B4D9005F55EA /* BarkParkTests.swift */,
+				F99DBE691D94B4D9005F55EA /* Info.plist */,
+			);
+			path = BarkParkTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F99DBE4E1D94B4D9005F55EA /* BarkPark */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99DBE6C1D94B4D9005F55EA /* Build configuration list for PBXNativeTarget "BarkPark" */;
+			buildPhases = (
+				F99DBE4B1D94B4D9005F55EA /* Sources */,
+				F99DBE4C1D94B4D9005F55EA /* Frameworks */,
+				F99DBE4D1D94B4D9005F55EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BarkPark;
+			productName = BarkPark;
+			productReference = F99DBE4F1D94B4D9005F55EA /* BarkPark.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F99DBE621D94B4D9005F55EA /* BarkParkTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99DBE6F1D94B4D9005F55EA /* Build configuration list for PBXNativeTarget "BarkParkTests" */;
+			buildPhases = (
+				F99DBE5F1D94B4D9005F55EA /* Sources */,
+				F99DBE601D94B4D9005F55EA /* Frameworks */,
+				F99DBE611D94B4D9005F55EA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99DBE651D94B4D9005F55EA /* PBXTargetDependency */,
+			);
+			name = BarkParkTests;
+			productName = BarkParkTests;
+			productReference = F99DBE631D94B4D9005F55EA /* BarkParkTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99DBE471D94B4D8005F55EA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0800;
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = MindGlow;
+				TargetAttributes = {
+					F99DBE4E1D94B4D9005F55EA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+					};
+					F99DBE621D94B4D9005F55EA = {
+						CreatedOnToolsVersion = 8.0;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F99DBE4E1D94B4D9005F55EA;
+					};
+				};
+			};
+			buildConfigurationList = F99DBE4A1D94B4D8005F55EA /* Build configuration list for PBXProject "BarkPark" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F99DBE461D94B4D8005F55EA;
+			productRefGroup = F99DBE501D94B4D9005F55EA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F99DBE4E1D94B4D9005F55EA /* BarkPark */,
+				F99DBE621D94B4D9005F55EA /* BarkParkTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F99DBE4D1D94B4D9005F55EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99DBE5D1D94B4D9005F55EA /* LaunchScreen.storyboard in Resources */,
+				F99DBE5A1D94B4D9005F55EA /* Assets.xcassets in Resources */,
+				F99DBE581D94B4D9005F55EA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99DBE611D94B4D9005F55EA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F99DBE4B1D94B4D9005F55EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99DBE551D94B4D9005F55EA /* ViewController.swift in Sources */,
+				F99DBE531D94B4D9005F55EA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99DBE5F1D94B4D9005F55EA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99DBE681D94B4D9005F55EA /* BarkParkTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F99DBE651D94B4D9005F55EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F99DBE4E1D94B4D9005F55EA /* BarkPark */;
+			targetProxy = F99DBE641D94B4D9005F55EA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F99DBE561D94B4D9005F55EA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99DBE571D94B4D9005F55EA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F99DBE5B1D94B4D9005F55EA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99DBE5C1D94B4D9005F55EA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F99DBE6A1D94B4D9005F55EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99DBE6B1D94B4D9005F55EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99DBE6D1D94B4D9005F55EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarkPark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.MindGlow.BarkPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		F99DBE6E1D94B4D9005F55EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BarkPark/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.MindGlow.BarkPark;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		F99DBE701D94B4D9005F55EA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarkParkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.MindGlow.BarkParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarkPark.app/BarkPark";
+			};
+			name = Debug;
+		};
+		F99DBE711D94B4D9005F55EA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BarkParkTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = io.MindGlow.BarkParkTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BarkPark.app/BarkPark";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F99DBE4A1D94B4D8005F55EA /* Build configuration list for PBXProject "BarkPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99DBE6A1D94B4D9005F55EA /* Debug */,
+				F99DBE6B1D94B4D9005F55EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99DBE6C1D94B4D9005F55EA /* Build configuration list for PBXNativeTarget "BarkPark" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99DBE6D1D94B4D9005F55EA /* Debug */,
+				F99DBE6E1D94B4D9005F55EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F99DBE6F1D94B4D9005F55EA /* Build configuration list for PBXNativeTarget "BarkParkTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99DBE701D94B4D9005F55EA /* Debug */,
+				F99DBE711D94B4D9005F55EA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F99DBE471D94B4D8005F55EA /* Project object */;
+}
