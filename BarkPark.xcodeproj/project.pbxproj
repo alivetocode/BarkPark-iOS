@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		F99DBE531D94B4D9005F55EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE521D94B4D9005F55EA /* AppDelegate.swift */; };
-		F99DBE551D94B4D9005F55EA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE541D94B4D9005F55EA /* ViewController.swift */; };
 		F99DBE581D94B4D9005F55EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE561D94B4D9005F55EA /* Main.storyboard */; };
 		F99DBE5A1D94B4D9005F55EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE591D94B4D9005F55EA /* Assets.xcassets */; };
 		F99DBE5D1D94B4D9005F55EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE5B1D94B4D9005F55EA /* LaunchScreen.storyboard */; };
@@ -28,7 +27,6 @@
 /* Begin PBXFileReference section */
 		F99DBE4F1D94B4D9005F55EA /* BarkPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarkPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99DBE521D94B4D9005F55EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F99DBE541D94B4D9005F55EA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F99DBE571D94B4D9005F55EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F99DBE591D94B4D9005F55EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F99DBE5C1D94B4D9005F55EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -77,12 +75,10 @@
 		F99DBE511D94B4D9005F55EA /* BarkPark */ = {
 			isa = PBXGroup;
 			children = (
-				F99DBE521D94B4D9005F55EA /* AppDelegate.swift */,
-				F99DBE541D94B4D9005F55EA /* ViewController.swift */,
-				F99DBE561D94B4D9005F55EA /* Main.storyboard */,
-				F99DBE591D94B4D9005F55EA /* Assets.xcassets */,
-				F99DBE5B1D94B4D9005F55EA /* LaunchScreen.storyboard */,
-				F99DBE5E1D94B4D9005F55EA /* Info.plist */,
+				F99DBE741D94B516005F55EA /* Controller */,
+				F99DBE731D94B50E005F55EA /* View */,
+				F99DBE721D94B506005F55EA /* Model */,
+				F99DBE751D94B52E005F55EA /* SupportingFiles */,
 			);
 			path = BarkPark;
 			sourceTree = "<group>";
@@ -94,6 +90,39 @@
 				F99DBE691D94B4D9005F55EA /* Info.plist */,
 			);
 			path = BarkParkTests;
+			sourceTree = "<group>";
+		};
+		F99DBE721D94B506005F55EA /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		F99DBE731D94B50E005F55EA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F99DBE561D94B4D9005F55EA /* Main.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		F99DBE741D94B516005F55EA /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		F99DBE751D94B52E005F55EA /* SupportingFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F99DBE5B1D94B4D9005F55EA /* LaunchScreen.storyboard */,
+				F99DBE521D94B4D9005F55EA /* AppDelegate.swift */,
+				F99DBE591D94B4D9005F55EA /* Assets.xcassets */,
+				F99DBE5E1D94B4D9005F55EA /* Info.plist */,
+			);
+			name = SupportingFiles;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -199,7 +228,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F99DBE551D94B4D9005F55EA /* ViewController.swift in Sources */,
 				F99DBE531D94B4D9005F55EA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
