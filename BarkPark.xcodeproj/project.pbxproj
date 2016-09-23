@@ -8,10 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		F99DBE531D94B4D9005F55EA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE521D94B4D9005F55EA /* AppDelegate.swift */; };
-		F99DBE581D94B4D9005F55EA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE561D94B4D9005F55EA /* Main.storyboard */; };
 		F99DBE5A1D94B4D9005F55EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE591D94B4D9005F55EA /* Assets.xcassets */; };
 		F99DBE5D1D94B4D9005F55EA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE5B1D94B4D9005F55EA /* LaunchScreen.storyboard */; };
 		F99DBE681D94B4D9005F55EA /* BarkParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE671D94B4D9005F55EA /* BarkParkTests.swift */; };
+		F99DBE771D94BCEF005F55EA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE761D94BCEF005F55EA /* WelcomeViewController.swift */; };
+		F99DBE791D94BD99005F55EA /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE781D94BD99005F55EA /* Welcome.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,13 +28,14 @@
 /* Begin PBXFileReference section */
 		F99DBE4F1D94B4D9005F55EA /* BarkPark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarkPark.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99DBE521D94B4D9005F55EA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F99DBE571D94B4D9005F55EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F99DBE591D94B4D9005F55EA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F99DBE5C1D94B4D9005F55EA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F99DBE5E1D94B4D9005F55EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F99DBE631D94B4D9005F55EA /* BarkParkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarkParkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F99DBE671D94B4D9005F55EA /* BarkParkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarkParkTests.swift; sourceTree = "<group>"; };
 		F99DBE691D94B4D9005F55EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99DBE761D94BCEF005F55EA /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		F99DBE781D94BD99005F55EA /* Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,7 +104,7 @@
 		F99DBE731D94B50E005F55EA /* View */ = {
 			isa = PBXGroup;
 			children = (
-				F99DBE561D94B4D9005F55EA /* Main.storyboard */,
+				F99DBE781D94BD99005F55EA /* Welcome.storyboard */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -110,6 +112,7 @@
 		F99DBE741D94B516005F55EA /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				F99DBE761D94BCEF005F55EA /* WelcomeViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -209,8 +212,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F99DBE5D1D94B4D9005F55EA /* LaunchScreen.storyboard in Resources */,
+				F99DBE791D94BD99005F55EA /* Welcome.storyboard in Resources */,
 				F99DBE5A1D94B4D9005F55EA /* Assets.xcassets in Resources */,
-				F99DBE581D94B4D9005F55EA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -229,6 +232,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F99DBE531D94B4D9005F55EA /* AppDelegate.swift in Sources */,
+				F99DBE771D94BCEF005F55EA /* WelcomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,14 +255,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		F99DBE561D94B4D9005F55EA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F99DBE571D94B4D9005F55EA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F99DBE5B1D94B4D9005F55EA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -372,6 +368,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.MindGlow.BarkPark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -384,6 +381,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = io.MindGlow.BarkPark;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -434,6 +432,7 @@
 				F99DBE6E1D94B4D9005F55EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F99DBE6F1D94B4D9005F55EA /* Build configuration list for PBXNativeTarget "BarkParkTests" */ = {
 			isa = XCConfigurationList;
@@ -442,6 +441,7 @@
 				F99DBE711D94B4D9005F55EA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
