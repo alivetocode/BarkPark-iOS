@@ -3,6 +3,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11161"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -17,12 +18,42 @@
                     <view key="view" contentMode="scaleToFill" id="65V-Qn-0OD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="1" green="0.88930232649999996" blue="0.2558969384" alpha="1" colorSpace="calibratedRGB"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="welcome.png" translatesAutoresizingMaskIntoConstraints="NO" id="mza-1B-Yw4"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="1vz-tg-6ql">
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Medium" family="Helvetica Neue" pointSize="15"/>
+                                <state key="normal" title="I Already Have An Acount"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRV-2Z-KhT">
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="50" id="abg-5R-4lO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Bold" family="Helvetica Neue" pointSize="24"/>
+                                <state key="normal" title="Get Started" backgroundImage="getStartedButton.png">
+                                    <color key="titleShadowColor" white="0.33333333333333331" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="mza-1B-Yw4" secondAttribute="trailing" id="Bfy-J5-au7"/>
+                            <constraint firstItem="1vz-tg-6ql" firstAttribute="top" secondItem="dRV-2Z-KhT" secondAttribute="bottom" constant="35" id="HFU-SB-jBB"/>
+                            <constraint firstItem="mza-1B-Yw4" firstAttribute="top" secondItem="65V-Qn-0OD" secondAttribute="top" id="Px7-JH-BT8"/>
+                            <constraint firstItem="dRV-2Z-KhT" firstAttribute="leading" secondItem="65V-Qn-0OD" secondAttribute="leadingMargin" constant="25" id="UzK-eO-IyW"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="dRV-2Z-KhT" secondAttribute="trailing" constant="25" id="ZzW-2Z-Rl7"/>
+                            <constraint firstItem="mza-1B-Yw4" firstAttribute="leading" secondItem="65V-Qn-0OD" secondAttribute="leading" id="fy2-vm-Po9"/>
+                            <constraint firstItem="csZ-Gk-JWl" firstAttribute="top" secondItem="mza-1B-Yw4" secondAttribute="bottom" id="oEG-uH-cBG"/>
+                            <constraint firstItem="csZ-Gk-JWl" firstAttribute="top" secondItem="1vz-tg-6ql" secondAttribute="bottom" constant="35" id="sgA-NO-bwV"/>
+                            <constraint firstItem="1vz-tg-6ql" firstAttribute="centerX" secondItem="65V-Qn-0OD" secondAttribute="centerX" id="to3-Zd-ZxH"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="YV4-NS-UO7" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="90" y="93"/>
+            <point key="canvasLocation" x="-791.20000000000005" y="-91.304347826086968"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="getStartedButton.png" width="270" height="51"/>
+        <image name="welcome.png" width="1200" height="1025"/>
+    </resources>
 </document>

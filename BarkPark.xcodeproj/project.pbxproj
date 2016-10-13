@@ -13,6 +13,10 @@
 		F99DBE681D94B4D9005F55EA /* BarkParkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE671D94B4D9005F55EA /* BarkParkTests.swift */; };
 		F99DBE771D94BCEF005F55EA /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F99DBE761D94BCEF005F55EA /* WelcomeViewController.swift */; };
 		F99DBE791D94BD99005F55EA /* Welcome.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE781D94BD99005F55EA /* Welcome.storyboard */; };
+		F99DBE7C1D94C45E005F55EA /* welcome.png in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE7B1D94C45E005F55EA /* welcome.png */; };
+		F99DBE7E1D94C5F0005F55EA /* splash_dog.png in Resources */ = {isa = PBXBuildFile; fileRef = F99DBE7D1D94C5F0005F55EA /* splash_dog.png */; };
+		F9F9791B1DAF011C0044BD2A /* getStartedButton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F9791A1DAF011C0044BD2A /* getStartedButton@2x.png */; };
+		F9F9791D1DAF01440044BD2A /* hello@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F9F9791C1DAF01440044BD2A /* hello@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,10 @@
 		F99DBE691D94B4D9005F55EA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F99DBE761D94BCEF005F55EA /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		F99DBE781D94BD99005F55EA /* Welcome.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Welcome.storyboard; sourceTree = "<group>"; };
+		F99DBE7B1D94C45E005F55EA /* welcome.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = welcome.png; sourceTree = "<group>"; };
+		F99DBE7D1D94C5F0005F55EA /* splash_dog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = splash_dog.png; sourceTree = "<group>"; };
+		F9F9791A1DAF011C0044BD2A /* getStartedButton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "getStartedButton@2x.png"; sourceTree = "<group>"; };
+		F9F9791C1DAF01440044BD2A /* hello@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "hello@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +85,7 @@
 		F99DBE511D94B4D9005F55EA /* BarkPark */ = {
 			isa = PBXGroup;
 			children = (
+				F99DBE7A1D94C43D005F55EA /* Assets */,
 				F99DBE741D94B516005F55EA /* Controller */,
 				F99DBE731D94B50E005F55EA /* View */,
 				F99DBE721D94B506005F55EA /* Model */,
@@ -126,6 +135,17 @@
 				F99DBE5E1D94B4D9005F55EA /* Info.plist */,
 			);
 			name = SupportingFiles;
+			sourceTree = "<group>";
+		};
+		F99DBE7A1D94C43D005F55EA /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				F99DBE7B1D94C45E005F55EA /* welcome.png */,
+				F99DBE7D1D94C5F0005F55EA /* splash_dog.png */,
+				F9F9791A1DAF011C0044BD2A /* getStartedButton@2x.png */,
+				F9F9791C1DAF01440044BD2A /* hello@2x.png */,
+			);
+			name = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -212,8 +232,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F99DBE5D1D94B4D9005F55EA /* LaunchScreen.storyboard in Resources */,
+				F99DBE7E1D94C5F0005F55EA /* splash_dog.png in Resources */,
 				F99DBE791D94BD99005F55EA /* Welcome.storyboard in Resources */,
+				F99DBE7C1D94C45E005F55EA /* welcome.png in Resources */,
+				F9F9791D1DAF01440044BD2A /* hello@2x.png in Resources */,
 				F99DBE5A1D94B4D9005F55EA /* Assets.xcassets in Resources */,
+				F9F9791B1DAF011C0044BD2A /* getStartedButton@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
